@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy Expense Tracker App to Surge
-      run: surge ./build project1-expense-tracker-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build panacloud.bootcamp.expensetrackerapp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
